@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/guillaume/dev/particles-cairo-sdl-opencl/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++26 -o CMakeFiles/app.dir/src/SDL_render.cpp.o -c /home/guillaume/dev/particles-cairo-sdl-opencl/src/SDL_render.cpp",
+  "file": "/home/guillaume/dev/particles-cairo-sdl-opencl/src/SDL_render.cpp",
+  "output": "CMakeFiles/app.dir/src/SDL_render.cpp.o"
+},
+{
+  "directory": "/home/guillaume/dev/particles-cairo-sdl-opencl/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++26 -o CMakeFiles/app.dir/src/draw.cpp.o -c /home/guillaume/dev/particles-cairo-sdl-opencl/src/draw.cpp",
+  "file": "/home/guillaume/dev/particles-cairo-sdl-opencl/src/draw.cpp",
+  "output": "CMakeFiles/app.dir/src/draw.cpp.o"
+},
+{
+  "directory": "/home/guillaume/dev/particles-cairo-sdl-opencl/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++26 -o CMakeFiles/app.dir/src/main.cpp.o -c /home/guillaume/dev/particles-cairo-sdl-opencl/src/main.cpp",
+  "file": "/home/guillaume/dev/particles-cairo-sdl-opencl/src/main.cpp",
+  "output": "CMakeFiles/app.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/guillaume/dev/particles-cairo-sdl-opencl/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++26 -o CMakeFiles/app.dir/src/opencl_interface.cpp.o -c /home/guillaume/dev/particles-cairo-sdl-opencl/src/opencl_interface.cpp",
+  "file": "/home/guillaume/dev/particles-cairo-sdl-opencl/src/opencl_interface.cpp",
+  "output": "CMakeFiles/app.dir/src/opencl_interface.cpp.o"
+},
+{
+  "directory": "/home/guillaume/dev/particles-cairo-sdl-opencl/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++26 -o CMakeFiles/app.dir/src/particle.cpp.o -c /home/guillaume/dev/particles-cairo-sdl-opencl/src/particle.cpp",
+  "file": "/home/guillaume/dev/particles-cairo-sdl-opencl/src/particle.cpp",
+  "output": "CMakeFiles/app.dir/src/particle.cpp.o"
+},
+{
+  "directory": "/home/guillaume/dev/particles-cairo-sdl-opencl/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++26 -o CMakeFiles/app.dir/src/utility.cpp.o -c /home/guillaume/dev/particles-cairo-sdl-opencl/src/utility.cpp",
+  "file": "/home/guillaume/dev/particles-cairo-sdl-opencl/src/utility.cpp",
+  "output": "CMakeFiles/app.dir/src/utility.cpp.o"
+}
+]

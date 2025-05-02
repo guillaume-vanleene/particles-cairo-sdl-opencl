@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 4.00)
+project(CAIRO_SDL LANGUAGES CXX)
+
+set (CMAKE_CXX_STANDARD 26)
+
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+
+set(PROJECT_SOURCE_DIR "src")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/*.cpp)
+
+find_package(SDL3 REQUIRED CONFIG REQUIRED COMPONENTS SDL3-shared)
+find_package(Cairo REQUIRED)
+find_package(OpenCL REQUIRED)
+
+add_executable(app ${SRC_FILES})
+
+target_link_libraries(app PRIVATE SDL3::SDL3 ${CAIRO_LIBRARIES} OpenCL::OpenCL)
