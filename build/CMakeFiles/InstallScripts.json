@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/guillaume/dev/particles-cairo-sdl-opencl/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

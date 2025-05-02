@@ -1,3 +1,0 @@
-/home/guillaume/dev/particles-cairo-sdl-opencl/build/CMakeFiles/app.dir
-/home/guillaume/dev/particles-cairo-sdl-opencl/build/CMakeFiles/edit_cache.dir
-/home/guillaume/dev/particles-cairo-sdl-opencl/build/CMakeFiles/rebuild_cache.dir
